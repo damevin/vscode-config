@@ -1,0 +1,41 @@
+{
+  "vue-script-setup": {
+    "scope": "vue",
+    "prefix": "<sc",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "const props = defineProps<{",
+      "  modelValue?: boolean,",
+      "}>(),",
+      "{",
+      "  modelValue = false,",
+      "}",
+      "$1",
+      "</script>",
+      "",
+      "<template>",
+      "  <div>",
+      "    <slot/>",
+      "  </div>",
+      "</template>",
+      "<style lang=\"postcss\">",
+      "</style>"
+    ]
+  },
+  "vue-define-emits": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "de",
+    "body": [
+      "const emits = defineEmits<{",
+      "  (e: 'update:modelValue', value: string | number): void",
+      "}>()",
+    ]
+  },
+  "vue-computed": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "com",
+    "body": [
+      "computed(() => { $1 })"
+    ]
+  },
+}

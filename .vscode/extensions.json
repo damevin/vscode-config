@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "amodio.tsl-problem-matcher",
+    "antfu.where-am-i",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "GitHub.copilot",
+    "GitHub.copilot",
+    "lokalise.i18n-ally",
+    "ms-vsliveshare.vsliveshare",
+    "ue.alphabetical-sorter",
+    "usernamehw.errorlens",
+    "vivaxy.vscode-conventional-commits",
+    "Vue.volar",
+    "MisterJ.vue-volar-extention-pack",
+    "WakaTime.vscode-wakatime",
+    "wix.vscode-import-cost",
+    "Wscats.vue"
+  ]
+}
